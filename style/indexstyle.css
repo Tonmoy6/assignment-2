@@ -1,0 +1,244 @@
+/* ==============
+Universal style
+================= */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 5px 0px;
+}
+
+.uni-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.uni-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-flex;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 46px;
+    background-color: #FF42A5;
+}
+
+/* ==================
+ Header style start
+ ================== */
+/* ==================
+ Navigation style 
+ ================== */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: #FFF;
+}
+
+/* .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+} */
+
+.icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.red {
+    color: #FF42A5;
+}
+
+#icon-list {
+    color: #3C354F;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.nav-btn {
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0b02231a;
+    color: #3C354F;
+    padding: 13px 31px;
+}
+
+/* ==================
+ Main style start
+ ==================== */
+/* ==========================
+ Play like the section style
+ ============================= */
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    gap: 0px;
+    padding: 0px 49px;
+    margin: 0px 0px;
+}
+
+.banner-description {
+    height: 100%;
+    width: 25%;
+    margin-top: -63px;
+}
+
+#banner-title {
+    font-size: 41px;
+}
+
+#banner-des {
+    margin-bottom: 20px;
+}
+
+.goat {
+    color: #F948B2;
+    font-size: 71px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#btn-banner {
+    background-color: #4EC5F7;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -14px;
+}
+
+/* ==========================
+ We are gamer section style
+ ============================= */
+
+ .gamer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff42a508;
+    gap: 30px;
+    padding: 20px 0px;
+}
+#gamer-title {
+    color: #F948B2;
+}
+#gamer-details {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 0px 13px 0px;
+}
+
+.gamer-image {
+    padding: 0px 0px 0px 29px;
+}
+#btn-gamer {
+    margin: 12px 0px;
+}
+.gamer-description {
+    padding: 0px 100px 0px 0px;
+    text-align: end;
+}
+.end-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+.end-title small {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* ====================
+    Mobile Responsive
+====================== */
+@media screen and (max-width: 576px) {
+
+    /* nav part style */
+    .container {
+        justify-content: flex-start;
+    }
+
+    .nav-container {}
+
+    .icon {}
+
+    .uni-description {
+        margin: 0px -12px;
+    }
+
+    .nav-list {}
+
+    /* play-like-the-style */
+
+    .main-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-description {
+        height: 100%;
+        width: 94%;
+        margin-top: -16px;
+        margin-left: 140px;
+        text-align: center;
+    }
+
+    .banner-img {
+        margin-top: 22px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        width: 160%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 922px) {
+    /* play-like-the-style */
+
+    .main-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-description {
+        height: 100%;
+        width: 100%;
+        margin-top: -4px;
+        margin-left: 95px;
+        text-align: center;
+    }
+
+    .banner-img {
+        margin-top: 22px;
+        margin-left: -29px;
+        height: 100%;
+        width: 113%;
+    }
+}
