@@ -92,16 +92,21 @@ Universal style
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #FFF;
     gap: 0px;
     padding: 0px 49px;
     margin: 10px 0px;
+    
+   
 }
 
 .banner-description {
     height: 100%;
     width: 25%;
     margin-top: -63px;
+    
+    background-repeat: no-repeat;
+    position: cover;
+
 }
 
 #banner-title {
@@ -182,6 +187,14 @@ Universal style
     font-weight: 400;
 }
 
+.color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
+}
+
 /* ====================
     Mobile Responsive
 ====================== */
@@ -191,7 +204,7 @@ Universal style
     
     .nav-container {
         flex-direction: column;
-        width: 734px;
+        width: 632px;
     }
 
     .icon {
@@ -213,55 +226,37 @@ Universal style
     /* play-like-the-style */
 
     .main-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
 
     .banner-description {
         height: 100%;
-        width: 94%;
-        margin-top: -16px;
-        margin-left: 140px;
+        width: 130%;
+        padding-left: 342px;
+        margin-top: 49px;
         text-align: center;
     }
 
     .banner-img {
         margin-top: 22px;
-        margin-right: auto;
-        margin-left: auto;
+        padding-left: 60px;
         height: 100%;
-        width: 287%;
+        width: 200%;
     }
-}
-
-@media screen and (min-width: 577px) and (max-width: 922px) {
-    /* play-like-the-style */
-
-    .nav-container {
+    /* We are the gamer style */
+    .gamer-container {
         flex-direction: column;
-      }
-      .nav-list {
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-      }
-      .nav-btn {
-        width: 100%;
-      }
-
-    .banner-description {
-        height: 100%;
-        width: 100%;
-        margin-top: -4px;
-        margin-left: 95px;
-        text-align: center;
+        align-items: center;
     }
-
-    .banner-img {
-        margin-top: 22px;
-        margin-left: -29px;
-        height: 100%;
-        width: 113%;
+    .gamer-img {
+        width: 200%;
+        padding-left: 0px;
+    }
+    .gamer-description {
+        width: 100%;
+        padding-left: 461px;
+        text-align: center;
     }
 }
