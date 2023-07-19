@@ -3,22 +3,22 @@ Universal style
 ================= */
 * {
     font-family: 'Work Sans', sans-serif;
-    margin: 5px 0px;
+    margin: 0;
 }
 
 .uni-title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .uni-description {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
     color: #534C64;
 }
 
 .btn-primary {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #fff;
     display: inline-flex;
@@ -34,18 +34,15 @@ Universal style
 /* ==================
  Navigation style 
  ================== */
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    background-color: #FFF;
-}
 
-/* .nav-container {
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-} */
+    background: #FFF;
+    box-shadow: 0px 5px 20px 0px #0000000d;
+    padding: 16px 0px 17px 0px;
+}
 
 .icon {
     display: flex;
@@ -71,6 +68,7 @@ Universal style
     justify-content: center;
     align-items: center;
     gap: 90px;
+    list-style: none;
 }
 
 .nav-btn {
@@ -97,7 +95,7 @@ Universal style
     background: #FFF;
     gap: 0px;
     padding: 0px 49px;
-    margin: 0px 0px;
+    margin: 10px 0px;
 }
 
 .banner-description {
@@ -107,7 +105,7 @@ Universal style
 }
 
 #banner-title {
-    font-size: 41px;
+    font-size: 2.56rem;
 }
 
 #banner-des {
@@ -115,8 +113,11 @@ Universal style
 }
 
 .goat {
-    color: #F948B2;
-    font-size: 71px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.43rem;
     font-weight: 800;
     margin-bottom: 25px;
     margin-right: auto;
@@ -137,7 +138,7 @@ Universal style
  We are gamer section style
  ============================= */
 
- .gamer-container {
+.gamer-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,11 +146,15 @@ Universal style
     gap: 30px;
     padding: 20px 0px;
 }
+
 #gamer-title {
-    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #gamer-details {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
     padding: 13px 0px 13px 0px;
 }
@@ -157,19 +162,23 @@ Universal style
 .gamer-image {
     padding: 0px 0px 0px 29px;
 }
+
 #btn-gamer {
     margin: 12px 0px;
 }
+
 .gamer-description {
     padding: 0px 100px 0px 0px;
     text-align: end;
 }
+
 .end-title {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
+
 .end-title small {
-    font-size: 22px;
+    font-size: 1.37rem;
     font-weight: 400;
 }
 
@@ -179,19 +188,27 @@ Universal style
 @media screen and (max-width: 576px) {
 
     /* nav part style */
-    .container {
-        justify-content: flex-start;
+    
+    .nav-container {
+        flex-direction: column;
+        width: 734px;
     }
 
-    .nav-container {}
+    .icon {
 
-    .icon {}
+    }
 
     .uni-description {
         margin: 0px -12px;
     }
 
-    .nav-list {}
+    .nav-list {
+        flex-direction: column;
+        padding: 40px 0px 0px 0px;
+    }
+    .nav-list li {
+        margin: -32px;
+    }
 
     /* play-like-the-style */
 
@@ -214,18 +231,24 @@ Universal style
         margin-right: auto;
         margin-left: auto;
         height: 100%;
-        width: 160%;
+        width: 287%;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 922px) {
     /* play-like-the-style */
 
-    .main-container {
+    .nav-container {
         flex-direction: column;
+      }
+      .nav-list {
+        flex-wrap: wrap;
+        gap: 10px;
         justify-content: center;
-        align-items: center;
-    }
+      }
+      .nav-btn {
+        width: 100%;
+      }
 
     .banner-description {
         height: 100%;
