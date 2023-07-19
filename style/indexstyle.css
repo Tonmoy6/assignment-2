@@ -95,15 +95,15 @@ Universal style
     gap: 0px;
     padding: 0px 49px;
     margin: 10px 0px;
-    
-   
+
+
 }
 
 .banner-description {
     height: 100%;
     width: 25%;
     margin-top: -63px;
-    
+
     background-repeat: no-repeat;
     position: cover;
 
@@ -187,12 +187,99 @@ Universal style
     font-weight: 400;
 }
 
-.color{
+.color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-      
+
+}
+
+/* ====================
+    Funney Styles 
+    =================*/
+.funny-main-containe {}
+
+#funny-title {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 19px;
+}
+
+#funny-des {
+    text-align: center;
+}
+
+.image-container-funny {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.funny-img {
+    .funny-img {
+        margin: 0px 0px 0px -130px;
+    }
+}
+
+.funny-img-1 {
+    padding: 0px 0px 0px 60px;
+    width: 247px;
+}
+
+.funny-img-2 {
+    padding: 0px 0px 0px 0px;
+    width: 247px;
+}
+
+.funny-img-3 {
+    padding: 0px 0px 0px 0px;
+    width: 247px;
+}
+
+.funny-img-4 {
+    padding: 0px 0px 0px 0px;
+    width: 247px;
+}
+
+.off_description_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    color: #272727;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+#funny-i {
+    text-align: center;
+    width: 248px;
+}
+
+#funny-i-1 {
+    padding: 0px 0px 0px 62px;
+}
+/* ===========================
+    Play Instantly style
+    ====================== */
+    .play-main-cont {
+        display: flex;
+        align-items: center;
+        margin: 61px 73px;
+    }
+    #play-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.play-img-main{
+
+}
+.play-img-object{
+
 }
 
 /* ====================
@@ -201,15 +288,13 @@ Universal style
 @media screen and (max-width: 576px) {
 
     /* nav part style */
-    
+
     .nav-container {
         flex-direction: column;
-        width: 632px;
-    }
-
-    .icon {
 
     }
+
+    .icon {}
 
     .uni-description {
         margin: 0px -12px;
@@ -219,6 +304,7 @@ Universal style
         flex-direction: column;
         padding: 40px 0px 0px 0px;
     }
+
     .nav-list li {
         margin: -32px;
     }
@@ -233,30 +319,74 @@ Universal style
 
     .banner-description {
         height: 100%;
-        width: 130%;
-        padding-left: 342px;
-        margin-top: 49px;
+        width: 118%;
+        padding-left: 2px;
+        margin-top: 33px;
         text-align: center;
     }
 
     .banner-img {
         margin-top: 22px;
-        padding-left: 60px;
         height: 100%;
-        width: 200%;
+        width: 100%;
     }
+
     /* We are the gamer style */
     .gamer-container {
         flex-direction: column;
         align-items: center;
     }
+
     .gamer-img {
-        width: 200%;
+        width: 100%;
         padding-left: 0px;
     }
+
     .gamer-description {
-        width: 100%;
-        padding-left: 461px;
+        width: 84%;
+        padding-left: 102px;
         text-align: center;
+    }
+
+    /*Funney Styles */
+    .funny-main-container {}
+
+    #funny-title {
+        text-align: center;
+        padding: 0px 0px;
+        margin: 0px 0px 0px 45px;
+    }
+    #funny-des {
+        text-align: center;
+        margin: 0px 0px 0px 52px;
+    }
+
+    .image-container-funny {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funny-img {
+        padding: 0px 0px 0px 43px;
+    }
+
+    .funny-img-b {
+        padding: 0px 0px 0px 93px;
+    }
+
+    .funny-img-c {
+        padding: 0px 0px 0px 86px;
+    }
+
+    .funny-img-d {
+        padding: 0px 0px 0px 59px;
+    }
+
+    #funny-i-1 {
+        padding: 0px 0px 0px 72px;
+    }
+
+    #funny-i {
+        padding: 0px 0px 0px 16px;
     }
 }
