@@ -263,32 +263,114 @@ Universal style
 #funny-i-1 {
     padding: 0px 0px 0px 62px;
 }
+
 /* ===========================
     Play Instantly style
     ====================== */
-    .play-main-cont {
-        display: flex;
-        align-items: center;
-        margin: 98px 73px 0px 73px;
-    }
-    .play-des {
-        margin-right: -196px;
-        padding-bottom: 268px;
-        padding-right: 364px;
-    }
-    #play-title {
+.play-main-cont {
+    display: flex;
+    align-items: center;
+    margin: 98px 73px 0px 73px;
+}
+
+.play-des {
+    margin-right: -196px;
+    padding-bottom: 268px;
+    padding-right: 364px;
+}
+
+#play-title {
     font-size: 2.5rem;
     font-weight: 700;
 }
+
 .play-img-main {
     width: 100%;
     height: 100%;
 }
+
 .play-img-object {
     width: 37%;
     position: relative;
     bottom: 178px;
     right: 85px;
+}
+
+/* =======================
+  .Careers section style
+  ==================   */
+
+
+/* Footer */
+.main-footer {
+    background: #0B0223;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.li-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-top: 20px;
+}
+
+.li-1a ul li {
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+}
+
+.icon-2b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-top: 30px;
+}
+
+.li-1bb {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-top: 80px;
+}
+.last p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
 }
 
 /* ====================
@@ -365,6 +447,7 @@ Universal style
         padding: 0px 0px;
         margin: 0px 0px 0px -1px;
     }
+
     #funny-des {
         text-align: center;
         margin: 0px 0px 0px 0px;
@@ -378,13 +461,15 @@ Universal style
     .funny-img {
         padding: 0px 0px 0px 0px;
     }
+
     .funny-img-1 {
         padding: 0px 0px 0px 0px;
     }
+
     .funny-img-b {
         padding: 0px 0px 0px 0px;
     }
-    
+
     .funny-img-c {
         padding: 0px 0px 0px 0px;
     }
@@ -400,20 +485,24 @@ Universal style
     #funny-i {
         padding: 0px 0px 0px 16px;
     }
+
     /* Play instantly style mobile */
     .play-main-cont {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .play-des {
         text-align: center;
         padding: 0px 0px 0px 0px;
         margin: 0px 5px 0px 0px;
     }
+
     .play-img {
         margin: 55px 0px 0px 0px;
     }
+
     .play-img-object {
         position: relative;
         top: -85px;
